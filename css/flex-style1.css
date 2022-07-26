@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex; 
+    background-color: aqua;
+    padding: 15px;
+    border: 2px solid violet;
+    gap: 8px;
+    margin: 15px;
+ }
+ 
+ /* this selector selects all divs inside of .flex-container */
+ .flex-container div {
+   background: peachpuff;
+   border: 4px solid blue;
+   height: auto;
+    flex: 1; 
+   padding: 5px;
+   display: flex;
+
+ }
+ #flex1{
+    flex-direction:column;
+    background-color: brown;
+ }

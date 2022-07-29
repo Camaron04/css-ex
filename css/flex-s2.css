@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: auto;
+    background-color: coral;
+}
+.left-links{
+    
+}
+
+
+.left-links ul{
+    flex-direction: row;
+    width: 80px;
+
+    }

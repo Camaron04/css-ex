@@ -1,17 +1,48 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .header{
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 100px;
     width: auto;
     background-color: coral;
+    justify-content: space-between;
 }
-.left-links{
+
+ul{
+   /* width: 80px;*/
+    display: flex;
+    gap:10px;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;;
+}
+
+ul li {
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;;
+    background-color: white;
+        
+}
+
+li a {
+    color: blue;
+    background-color: white;
+    font-size: 1em;
+    /*padding: 5px;;*/
+    text-decoration: none;
+}
+
+.logo{
+    background-color: white;
+    color: orangered;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
-
-
-.left-links ul{
-    flex-direction: row;
-    width: 80px;
-
-    }

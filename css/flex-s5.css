@@ -24,9 +24,14 @@ body {
 }
 
 .header{
-    background-color: aqua;
+    /*background-color: aqua;*/
     display: flex;
     justify-content: space-between;
+    margin-top:5px;
+    margin-bottom: 10px;;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .mess{
@@ -43,6 +48,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 15px;
+    flex: 1 0 42px;
 }
 
 .close-button {
@@ -56,6 +63,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 5px;
+}
+.close-button:hover{
+  background-color: rgb(228, 169, 169);
 }
 
 button {
@@ -67,6 +78,8 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 button.cancel {
